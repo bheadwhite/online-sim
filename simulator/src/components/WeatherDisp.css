@@ -1,0 +1,28 @@
+.WeatherDisp {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+
+}
+
+.WeatherDisp-box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 150px;
+    width: 100px;
+    box-sizing: border-box;
+    background: white;
+    color: black;
+    box-shadow: 1px 3px 9px #2a2b2d;
+    font-size: .8em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
